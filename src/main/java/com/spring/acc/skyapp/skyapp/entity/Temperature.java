@@ -23,9 +23,9 @@ public class Temperature {
 
     @Getter
     @Setter
-    private String rainToday;
+    private Boolean rainToday;
 
-    public Temperature(String min, String max, String current, String status, String rainToday) {
+    public Temperature(String min, String max, String current, String status, Boolean rainToday) {
         this.min = min;
         this.max = max;
         this.current = current;

@@ -17,7 +17,7 @@ public class DailyInfo {
 
     @Getter
     @Setter
-    private Date date;
+    private String date;
 
     @Getter
     @Setter
@@ -47,7 +47,7 @@ public class DailyInfo {
     @Setter
     private Temperature temperature;
 
-    public DailyInfo(int id, Date date, Location location, String sunrise, String sunset, String solarNoon,
+    public DailyInfo(int id, String date, Location location, String sunrise, String sunset, String solarNoon,
             String dayLength, String moonrise, Temperature temperature) {
         this.id = id;
         this.date = date;
